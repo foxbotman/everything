@@ -1,3 +1,3 @@
 <?php
-ehco"My name is Phumin";
+echo "My name is Phumin";
 ?>
