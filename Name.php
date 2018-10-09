@@ -1,4 +1,9 @@
 <?php
+    $server = "localhost";
+    $username = "nutticom_data";
+    $password = "12345";
+    $db = "nutticom_data";
+    $conn = new mysqli($server, $username, $password, $db);
 function reply_msg($txtback,$replyToken)//สร้างข้อความและตอบกลับ
 {
     $access_token = 'nn+O7ECJi9F+brsqR77DsSjt1LbHqGPaST62Fymax167Y0uCysrzkiW4NYrD6hW/3d0R/XWSTzm6gVKymMLpml17mVTKJV4pQTwEZFGNHhdD1/9wrJLbW7RU5UKw2Fa2JrYcSAtRZU+y3CGSm1aJTwdB04t89/1O/w1cDnyilFU=';
@@ -30,9 +35,11 @@ function reply_msg($txtback,$replyToken)//สร้างข้อความ�
      {
        $replyToken = $event['replyToken']; //เก็บ reply token เอาไว้ตอบกลับ
        $txtin = $event['message']['text'];//เอาข้อความจากไลน์ใส่ตัวแปร $txtin
-       if($txtin == "hibot")
+         $sql_text = "SELECT * FROM tbl_phumin WHERE name = '".$txtin.".";
+         $query = mysqli_query($conn,$sql_text);
+         while($obj = mysqli_fetch_array($query))
        {
-         $txtback = "hihumen";
+         $txtback = $obj["lastname"];
          reply_msg($txtback,$replyToken);
        }
      }
