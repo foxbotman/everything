@@ -39,7 +39,7 @@
 							<label for="usr">email:</label>
 							<input type="text" class="form-control" name="email" placeholder="ใส่ email ของคุณ">
 					</div>
-					<div class="row">
+					<div class="form-group">
 							<input class="btn btn-success btn-block" type="submit">
 					</div>
 				</div>
