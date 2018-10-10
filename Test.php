@@ -54,11 +54,18 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td>1111</td>
-									<td>2222</td>
-									<td>3333</td>
-								</tr>
+								<?php
+									$sql = "SELECT * FROM tbl_phumin";
+									$query = mysqli_query($conn,$sql);
+									while($obj = mysqli_fetch_array($query))
+									{
+										echo "<tr>";
+										echo "<td>".$obj["name"]."</td>";
+										echo "<td>".$obj["lastname"]."</td>";
+										echo "<td>".$obj["email"]."</td>";
+										echo "</tr>";
+									}
+								?>
 							</tbody>
 						</table>
 					</div>
