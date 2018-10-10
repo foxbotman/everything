@@ -19,7 +19,7 @@
 	<body>
 		<div class="container-fluid" style="background-color:pink;">
 		<div class="row row-center">
-				<div class="col-lg-4 offset-lg-4" style="background-color:blue;">
+				<div class="col-lg-4 offset-lg-4" style="background-color:pink;">
 					<h4>บันทึกข้อมูล</h4>
 				</div>
 			</div>
