@@ -43,7 +43,7 @@
 							<input class="btn btn-primary btn-block" type="submit" value="send">
 					</div>
 				</div>
-				<div class="col-lg-10"style="background-color:blue;">
+				<div class="col-lg-10">
 					<div class="table-responsive">
 						<table class="table">
 							<thead>
