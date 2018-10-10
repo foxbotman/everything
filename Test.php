@@ -40,7 +40,7 @@
 							<input type="text" class="form-control" name="email" placeholder="ใส่ email ของคุณ">
 					</div>
 					<div class="form-group">
-							<input class="btn btn-success btn-block" type="submit">
+							<input class="btn btn-primary btn-block" type="submit" value="send">
 					</div>
 				</div>
 				<div class="col-lg-8"style="background-color:blue;">
