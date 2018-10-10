@@ -43,11 +43,25 @@
 							<input class="btn btn-primary btn-block" type="submit" value="send">
 					</div>
 				</div>
-				<div class="col-lg-8"style="background-color:blue;">
-					<h4>col2</h4>
-				</div>
-				<div class="col-lg-2"style="background-color:red;">
-					<h4>col3</h4>
+				<div class="col-lg-10"style="background-color:blue;">
+					<div class="table-responsive">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>ชื่อ</th>
+									<th>นามสกุล</th>
+									<th>email</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1111</td>
+									<td>2222</td>
+									<td>3333</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>
