@@ -35,7 +35,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-2"style="background-color:gray;">
-					<form action="Recive.php" method="post">
+					<form action="B.php" method="post">
 					<div class="form-group">
 						<label for="usr">ชื่อ:</label>
 						<input type="text" class="form-control" name="name" placeholder="ใส่ชื่อของคุณ">
