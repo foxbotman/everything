@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>บันทึกข้อมูล</title>
+		<title>ผลสำเร็จตามแผนปฏิบัติการ</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0," charset="utf-8">
 		<title>BOT TRAIN PEA S.1</title>
 		<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
