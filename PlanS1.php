@@ -46,8 +46,18 @@
 						<select class="form-control" id="sel1">
 						<option>เพชรบุรี</option>
 						<option>ราชบุรี</option>
-						<option>ระนอง</option>
+						<option>สมุทรสงคราม</option>
+						<option>ประจวบฯ</option>
 						<option>ชุมพร</option>
+						<option>ระนอง</option>
+						<option>หัวหิน</option>
+						<option>ปราณบุรี</option>
+						<option>โพธาราม</option>
+						<option>ชะอำ</option>
+						<option>บางสะพาน</option>
+						<option>จอมบึง</option>
+						<option>หลังสวน</option>
+						<option>ท่าแซะ</option>
 						</select>
 						</div>
 					</form>
