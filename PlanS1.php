@@ -41,16 +41,27 @@
 			<div class="row">
 				<div class="col-lg-2"style="background-color:gray;">
 					<form>
-    <div class="form-group">
-      <label for="sel1">Select list (select one):</label>
-      <select class="form-control" id="sel1">
-        <option>เพชรบุรี</option>
-        <option>ราชบุรี</option>
-        <option>ระนอง</option>
-        <option>ชุมพร</option>
-      </select>
-    </div>
-  </form>
+						<div class="form-group">
+						<label for="sel1">ชื่อ กฟฟ.:</label>
+						<select class="form-control" id="sel1">
+						<option>เพชรบุรี</option>
+						<option>ราชบุรี</option>
+						<option>ระนอง</option>
+						<option>ชุมพร</option>
+						</select>
+						</div>
+					</form>
+					<form>
+						<div class="form-group">
+						<label for="sel1">ไตรมาสที่:</label>
+						<select class="form-control" id="sel1">
+						<option>ไตรมาสที่ 1</option>
+						<option>ไตรมาสที่ 2</option>
+						<option>ไตรมาสที่ 3</option>
+						<option>ไตรมาสที่ 4</option>
+						</select>
+						</div>
+					</form>
 				</div>
 				<div class="col-lg-10">
 					<div class="table-responsive">
