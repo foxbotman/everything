@@ -39,7 +39,7 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-2"style="background-color:gray;">
+				<div class="col-lg-12"style="background-color:gray;">
 					<form>
 						<div class="form-group">
 						<label for="sel1">ชื่อ กฟฟ.:</label>
@@ -62,32 +62,6 @@
 						</select>
 						</div>
 					</form>
-				</div>
-				<div class="col-lg-10">
-					<div class="table-responsive">
-						<table class="table">
-							<thead>
-								<tr>
-									<th>กฟฟ.</th>
-									<th>ไตรมาสที่</th>
-								</tr>
-							</thead>
-							<tbody>
-								<?php
-									$sql = "SELECT * FROM tbl_phumin";
-									$query = mysqli_query($conn,$sql);
-									while($obj = mysqli_fetch_array($query))
-									{
-										echo "<tr>";
-										echo "<td>".$obj["name"]."</td>";
-										echo "<td>".$obj["lastname"]."</td>";
-										echo "<td>".$obj["email"]."</td>";
-										echo "</tr>";
-									}
-								?>
-							</tbody>
-						</table>
-					</div>
 				</div>
 			</div>
 		</div>
