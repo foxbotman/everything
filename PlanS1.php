@@ -72,7 +72,7 @@
 						</select>
 						</div>
 							<div class="form-group">
-							<input class="btn btn-primary btn-block" type="submit" value="send">
+							<input class="btn btn-primary btn-block" type="submit" value="submit">
 							</div>
 					</form>
 				</div>
