@@ -43,7 +43,7 @@
 					<form>
 						<div class="form-group">
 						<label for="sel1">ชื่อ กฟฟ.:</label>
-						<select class="form-control" id="sel1">
+						<select class="form-control" id="ชื่อ กฟฟ. ของคุณ">
 						<option>เพชรบุรี</option>
 						<option>ราชบุรี</option>
 						<option>สมุทรสงคราม</option>
@@ -64,7 +64,7 @@
 					<form>
 						<div class="form-group">
 						<label for="sel1">ไตรมาสที่:</label>
-						<select class="form-control" id="sel1">
+						<select class="form-control" id="เลือกไตรมาส">
 						<option>ไตรมาสที่ 1</option>
 						<option>ไตรมาสที่ 2</option>
 						<option>ไตรมาสที่ 3</option>
